@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="Crawler" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2013-10.2.2">
+  <Role name="WorkerRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="elmahalawym" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEC9H1XajgXW7SKhqsMz64I8wDQYJKoZIhvcNAQEBBQAEggEAqoExe9qP2yPhlEzrkcnVXI49ZsOH6VMHj3GQ/U6ZnSnqyZVIOO3QTP3Scg7BCZFSYDDPbOA3otzj9EJ4O7FYWeH1Nl4R57u76v/sk/BjRTxChyDjvaUw2a4dftcJPl1kQ4EEwIMwJJdvrRjqGD13/VHVA5G3SaNlge1htHt4Zk2amGmsCm1X90RFJZ3fylMpspNixvQ4h++Wh6jkZvW1Fh/0PUXT7Q/JvlbaDaWFglBn/4gvqLDLqmeCgJa5EUMbyAZlsSYws2/ArN/eeJ3rAPafYj/cfK3hmurIw/sANjD3shsDxuashBkIwUhNde+kXg2MrF8npF1gBU2RmlzQyDAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECHZRg2bB0T7DgBBfpxVhOwAcFzBplPwmbglk" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2015-02-18T23:59:59.0000000+02:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=cscrawlerstorage;AccountKey=a7ERjJBlce7VB1tsUYh4s7vluJXskLE63uxYVzTPtsvzFCpFiBshhSh+e1m8OFF4xB76cCN7484k3czjigZitg==" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="34FAA6919D94F4B2958A95B24F7DFC30DD1E6169" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

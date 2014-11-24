@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="185db8718da040f0a8b69ff82d9aa2a5" Name="Diagram1">
+        <EntityTypeShape EntityType="SmartNewsModel.Category" Width="1.5" PointX="0.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartNewsModel.Cluster" Width="1.5" PointX="3.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartNewsModel.Filter" Width="1.5" PointX="5.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartNewsModel.Item" Width="1.5" PointX="3.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartNewsModel.NewsSource" Width="1.5" PointX="0.625" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartNewsModel.Preference" Width="1.5" PointX="7.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartNewsModel.ToReadList" Width="1.5" PointX="7.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SmartNewsModel.User" Width="1.5" PointX="5.375" PointY="2.75" IsExpanded="true" />
+        <AssociationConnector Association="SmartNewsModel.FK_Clusters_0" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartNewsModel.FK_Items_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartNewsModel.FK_ClusterID" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartNewsModel.Filter_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartNewsModel.FK_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartNewsModel.FK_Items_NewsSources" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartNewsModel.FK_User" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartNewsModel.FK_ToReadList_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="SmartNewsModel.UserFavSources" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

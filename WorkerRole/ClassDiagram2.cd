@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WorkerRole.Crawlers.CrawlBase">
+    <Position X="2" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAABAgACQAEACAAAgAAAAAAAEIACAkJAiAAEAgAAAAA=</HashCode>
+      <FileName>Crawlers\CrawlBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WorkerRole.Crawlers.CrawlBBC" Collapsed="true">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <InheritanceLine Type="WorkerRole.Crawlers.CrawlBase" ManuallyRouted="true">
+      <Path>
+        <Point X="2.75" Y="2" />
+        <Point X="2.75" Y="2.071" />
+        <Point X="3.7" Y="2.071" />
+        <Point X="3.7" Y="1.825" />
+        <Point X="5.5" Y="1.825" />
+        <Point X="5.5" Y="1.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAACQAAAAAAAAAAAAAAAAIAAAEAACAAAAgAAAAA=</HashCode>
+      <FileName>Crawlers\CrawlBBC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorkerRole.Crawlers.CrawlCNN" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACQAAAAAAAAAAAAAAAAIAAAEAACAAAAgAAAAA=</HashCode>
+      <FileName>Crawlers\CrawlCNN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorkerRole.Crawlers.CrawlDostor" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACQAAAAAAAAAAAAAAAAIAAAEAACAAAAgAAAAA=</HashCode>
+      <FileName>Crawlers\CrawlDostor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorkerRole.Crawlers.CrawlAljazeera" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACQAAAAAAAAAAAAAAAAIAAAEAACAAAAgAAAAA=</HashCode>
+      <FileName>Crawlers\CrawlAljazeera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorkerRole.Crawlers.CrawlGoal" Collapsed="true">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACQAAAAAAAAAAAAAAAAIAAAEAACAAAAgAAAAA=</HashCode>
+      <FileName>Crawlers\CrawlGoal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorkerRole.Crawlers.CrawlAlaraby" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAACQAAAAAAAAAAAAAAAAIAAAEAACAAAAgAAAAA=</HashCode>
+      <FileName>Crawlers\CrawlAlaraby.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorkerRole.Crawlers.CrawlONA" Collapsed="true">
+    <Position X="6.5" Y="0.75" Width="1.5" />
+    <InheritanceLine Type="WorkerRole.Crawlers.CrawlBase" ManuallyRouted="true">
+      <Path>
+        <Point X="2.75" Y="2" />
+        <Point X="5.738" Y="2" />
+        <Point X="5.738" Y="1.602" />
+        <Point X="7.25" Y="1.602" />
+        <Point X="7.25" Y="1.441" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAACQAAAAAAAAAAAAAAAAIAAAEAACAAAAgAAAAA=</HashCode>
+      <FileName>Crawlers\CrawlONA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="WorkerRole.ICrawlWeb">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Crawlers\ICrawlWeb.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
